@@ -1,0 +1,98 @@
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+.box{
+  width: 450px;
+  height: 390px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #303030;
+  box-shadow: 5px 5px 20px red;
+  border-radius: 20px;
+
+}
+.box:hover{
+background-position:left-bottom;
+color:yellow;
+border:none;
+box-shadow:0 0 20px black;
+}
+.top{
+  width: 100%;
+  height: 80px;
+  background:#00FFFF;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+
+}
+.top h1{
+  color: #000000;
+  margin: 0;
+  font-size: 30px;
+  text-align: center;
+  padding-left: 20px; 
+  padding-top: 10px;
+  font-family: monospace;
+}
+
+.mid{
+  width: 100%;
+  height: 260px;
+  background:#fc5675;
+  margin-top: -18px;
+}
+.mid .chat{
+  width: 100%;
+  padding-top: 0px;
+}
+.mid .chat h2{
+  margin: 0;
+  font-size: 30px;
+  color:#000000;
+  padding: 30px 20px;
+}
+.mid .chat p{
+  margin: 0;
+  font-size: 28px;
+  font-weight: 600;
+  color:#000000 ;
+  background:#00FF00;
+  padding: 50px 20px;
+  letter-spacing: 0.04em;
+}
+.input{
+  width: 100%;
+  height: 79px;
+  overflow: hidden;
+  background: #090e11;
+}
+.input input{
+  width: 100%;
+  height: 70px;
+  font-size: 30px;
+  outline: none;
+  border: none;
+  padding-left: 30px;
+  padding-top: 0;
+  font-family: cursive;
+  background:#00FFFF ;
+  color:#000000 ;
+}
+.input:hover{
+background-position:left-bottom;
+color:white;
+border:none;
+box-shadow:0 0 20px blue;
+cursor: pointer;
+background-color: black;
+color: white;
+box-shadow: 0 0 5px black,0 0 10px black, 0 0 15px black;
+font-weight:bold;
+}
